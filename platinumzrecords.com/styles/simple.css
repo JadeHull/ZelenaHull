@@ -1,0 +1,68 @@
+
+
+
+body{
+	font-family:"Lucida Console", "Courier New", monospace;
+	background-color: lightgrey;
+	color:black;
+	text-align:20px;
+	margin: auto;
+	overflow-x: none;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+    position:center;
+}
+
+.containera {
+    display: grid;
+    padding:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    animation: fadeIn 3s;
+    margin:auto;
+}
+
+main{display:block; margin:auto; padding:20px;position: center; max-width:800px;}
+
+@media screen and (max-width:399px){
+img{
+    max-width: 240px;
+    max-height: auto;
+	position:center;
+}
+}
+
+.center{margin: auto;}
+
+pre{
+	font-family:"Lucida Console", "Courier New", monospace;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    padding-left:5px;
+    padding-right:5px;
+	animation: fadeIn 3s;
+	margin: auto;
+	}
+
+.fulldisplay{
+padding-top:25vh;
+padding-bottom:25vh;
+}
+
+hr{
+border: 5px solid black;
+width: 10px;
+}
+
+
+

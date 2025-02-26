@@ -1,0 +1,39 @@
+
+
+
+body{
+	font-family:"Lucida Console", "Courier New", monospace;
+	background-color: pink;
+	color:black;
+	text-align:20px;
+	margin: auto;
+	overflow-x: none;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    max-width: 300px;
+    max-height: auto;
+}
+
+.containera {
+    display: grid;
+    padding:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    animation: fadeIn 3s;
+    margin:auto;
+}
+
+#about{display:block; margin:auto; padding:20px;position: center; max-width:600px;}
+
+@media screen and (max-width:399px){
+img{
+    max-width: 240px;
+    max-height: auto;
+	position:center;
+}
+}
